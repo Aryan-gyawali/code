@@ -16,6 +16,7 @@
     text-align: center;
     background-color: rgba(0, 58, 90, 1);
     color: white;
+
     
 }
 
@@ -125,6 +126,8 @@ color: rgba(57, 59, 61, 1);
 
     margin-bottom: 33px;
     color: rgba(100, 100, 100, 1);
+    max-width: 570px;
+    font-weight: 400;
     
 }
 
@@ -224,7 +227,12 @@ color: rgba(57, 59, 61, 1);
 .team-img {
 
     padding-top: 120px;
+    float: right;
 }
 
+.card-text {
+
+    max-width: 342px;
+}
 
 
