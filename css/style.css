@@ -196,5 +196,35 @@ color: rgba(57, 59, 61, 1);
    
 }
 
+.paragraph-sec {
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter Tight';
+}
+
+.text-item {
+
+    margin-bottom: 120px;
+}
+
+.team-info {
+    
+    padding-top: 120px;
+}
+
+.team-img {
+
+    padding-top: 120px;
+}
+
 
 
