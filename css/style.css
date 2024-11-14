@@ -5,13 +5,9 @@
     box-sizing: border-box;
 }
 
-.container {
-
-    max-width: 1170px;
-    margin-top: 0px;
-    padding: 0;
+.bg-alt{
+    background:#F5FBFE;
 }
-
 
 .info-sec {
 
@@ -23,9 +19,14 @@
     
 }
 
+
+
+
 .header-link {
 
     padding: 0;
+    color:  #646464;
+    ;
 }
 
 
@@ -65,11 +66,6 @@ a .logo-1 {
     gap: 32px;
 }
 
- 
-
-
-
-
 .btn-cta {
 
     color: white;
@@ -101,12 +97,7 @@ color: rgba(57, 59, 61, 1);
     padding: 0;
 }
 
-section {
 
-    background-color: rgba(245, 251, 254, 1);
-    
-    
-}
 
 .image-card {
 
@@ -121,6 +112,8 @@ section {
 .section-title {
 
     margin-bottom: 12px;
+    color: rgba(0, 160, 249, 1);
+   
 }
 
 .main-heading {
@@ -131,4 +124,77 @@ section {
 .info-sec1 {
 
     margin-bottom: 33px;
+    color: rgba(100, 100, 100, 1);
+    
 }
+
+.image-card {
+
+    position: relative;
+    display: inline-block;
+    
+   
+}
+
+
+
+
+.body-up{
+    padding-bottom: 70px;
+}
+
+.body-up .overlay-img {
+
+    position: absolute;
+    left: -30px;
+    bottom: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 19px;
+    border-radius: 12px;
+}
+
+.body-down{
+    border-top: 1px solid #C0C0C0;
+    padding: 40px;
+    
+}
+
+.container {
+
+    padding: 0;
+}
+
+.phone, .quote, .email{
+
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.Phone-Icon, .Quote-Icon, .Email-Icon {
+
+    display: inline-block;
+}
+
+.phone-text, .quote-text, .email-text{
+
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+
+.quote-text{
+
+    max-width: 206px;
+}
+
+.phone-title, .quote-title, .email-title{
+
+    margin: 0;
+   
+}
+
+
+
