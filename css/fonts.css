@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 
@@ -61,4 +61,80 @@ font-size: 16px;
     font-weight: 400;
     max-width: 570px;
     font-weight: 400;
+}
+
+.section-title {
+
+    font-size: 16px;
+}
+
+.crew-title {
+
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter Tight';
+}
+
+.crew-text {
+
+    color: #646464;
+    font-size: 16px;
+}
+
+.customer-title{
+
+    font-size: 24px;
+    font-family: 'Inter Tight';
+    font-weight: 600;
+}
+
+.customer-text {
+
+    color: #646464;
+    font-weight: 400;
+    padding-right: 20px;
+    margin-bottom: 24px;
+}
+
+.author-name{
+
+    font-size: 18px;
+    font-family: 'Jost';
+    font-weight: 500;
+}
+
+.service-heading2{
+
+    font-size: 46px;
+    font-family: 'Inter Tight';
+    font-weight: 700;
+}
+
+.form-text{
+
+    color:  #646464;
+    font-weight: 400;
+}
+
+.form-heading {
+
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter Tight';
+}
+
+.form-email {
+
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color:#2EB7E5;
+    
+}
+
+.form-title{
+
+    font-size: 24px;
+    font-weight: 500;
+    width: 670px;
 }
