@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -22,8 +23,9 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="header-nav" href="#">
+        <a class="header-logo" href="#">
           <img class="logo-1" src="./image/logo-01.svg" alt="logo">
+          <img class="hide-desktop" src="./Icons/three lines.svg" alt="Three Lines">
         </a>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -88,48 +90,47 @@
 
   <section class="body-down bg-alt">
     <div class="container">
-      <div class="contact-us">
-        <div class="row">
+
+      <div class="row">
 
 
 
-
-          <div class="col-md-4">
-            <div class="phone">
-              <img src="./Icons/call icon.svg" alt="Phone icon" class="Phone-Icon">
-              <div class="phone-text">
-                <p class="phone-title">Call Us Now</p>
-                <a href="#" class="phone-number">+977(1892910192)</a>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="col-md-4">
-            <div class="quote">
-              <img src="./Icons/quote icon.svg" alt="Quote icon" class="Quote-Icon">
-              <div class="quote-text">
-                <p class="quote-title">Get An Instant</p>
-                <a href="#" class="quote-us">Get a quote</a>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="col-md-4">
-            <div class="email">
-              <img src="./Icons/email icon.svg" alt="Email icon" class="Email-Icon">
-              <div class="email-text">
-                <p class="email-title">Email Us</p>
-                <a href="#" class="email-address">admin@gmail.com</a>
-              </div>
+        <div class="col-md-4">
+          <div class="phone">
+            <img src="./Icons/call icon.svg" alt="Phone icon" class="Phone-Icon">
+            <div class="phone-text">
+              <p class="phone-title">Call Us Now</p>
+              <a href="#" class="phone-number">+977(1892910192)</a>
             </div>
           </div>
 
         </div>
+
+
+        <div class="col-md-4">
+          <div class="quote">
+            <img src="./Icons/quote icon.svg" alt="Quote icon" class="Quote-Icon">
+            <div class="quote-text">
+              <p class="quote-title">Get An Instant</p>
+              <a href="#" class="quote-us">Get a quote</a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="email">
+            <img src="./Icons/email icon.svg" alt="Email icon" class="Email-Icon">
+            <div class="email-text">
+              <p class="email-title">Email Us</p>
+              <a href="#" class="email-address">admin@gmail.com</a>
+            </div>
+          </div>
+        </div>
       </div>
+
+
 
     </div>
 
@@ -137,7 +138,7 @@
 
 
 
-  <section>
+  <section class="service">
     <div class="container">
 
       <div class="paragraph-sec">
@@ -179,8 +180,7 @@
           <div class="text-item">
             <img src="./Icons/stack icon.svg" alt="Stack Icon">
             <h5 class="card-title">Development Stack <br> Consulting</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing egestas cursus purus venenatis
-
+            <p class="text-card">Lorem ipsum dolor sit amet consectetur. Adipiscing egestas cursus purus venenatis
               fringilla arcu sapien. Erat diam mattis viverra scelerisque facilisi odio quisque senectus.
               Consequat.
             </p>
@@ -191,14 +191,14 @@
     </div>
   </section>
 
-  <section class="bg-alt">
+  <section class=" team bg-alt">
     <div class="container">
       <div class="row">
 
         <div class="col-md-7">
           <div class="team-info">
-            <h5 class="section-title">Introduction</h5>
-            <h2 class="service-heading">Lorem ipsum dolor sit amet consectetur.</h2>
+            <h5 class="section-title">INTRODUCTION</h5>
+            <h2 class="team-heading">Lorem ipsum dolor sit amet consectetur.</h2>
             <p class="team-text">
               Lorem ipsum dolor sit amet consectetur. Volutpat eros ut magnis non
               aliquam. Posuere molestie non dui laoreet nulla molestie. Vitae magna
@@ -216,7 +216,8 @@
 
         <div class="col-md-5 ">
           <div class="team-img">
-            <img src="./image/team.svg" alt="Team Photo">
+            <img class="desktop-only" src="./image/team.svg" alt="desktop version">
+            <img class="mobile-only" src="./image/team image mobile.svg" alt="mobile version">
           </div>
         </div>
       </div>
@@ -225,41 +226,41 @@
   </section>
 
 
-  <section>
+  <section class="crew">
     <div class="container">
 
       <div class="crew-info">
         <h5 class="section-title">MEET OUR TEAM</h5>
         <h2 class="service-heading">Meet our team</h2>
-
-
       </div>
 
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
           <div class="crew-img">
-            <img src="./image/anabel.svg" alt="Anabel">
+            <img class="anabel" src="./image/anabel.svg" alt="Anabel">
             <h2 class="crew-title">Anabel Wessling</h2>
             <h5 class="crew-text">Writer</h5>
           </div>
         </div>
 
 
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
           <div class="crew-img">
-            <img src="./image/yasemin.svg" alt="Yasemin">
+            <img class="yasemin" src="./image/yasemin.svg" alt="Yasemin">
             <h2 class="crew-title">Yasemin</h2>
             <h5 class="crew-text">Author</h5>
           </div>
         </div>
+        
 
-
-        <div class="col-md-4">
-          <div class="crew-img">
-            <img src="./image/nadine.svg" alt="Nadine">
-            <h2 class="crew-title">Nadine</h2>
-            <h5 class="crew-text">Author</h5>
+        <div class="col-6 col-md-4">
+          <div class="nadine">
+            <div class="crew-img">
+              <img src="./image/nadine.svg" alt="Nadine">
+              <h2 class="crew-title">Nadine</h2>
+              <h5 class="crew-text">Author</h5>
+            </div>
           </div>
         </div>
       </div>
@@ -376,7 +377,7 @@
 
           <h3 class="form-heading">Form too long?
             Drop us an email!</h3>
-          <h5 class="form-email">admin@gmail.com</h5>
+          <h5 class="form-email">admin@example.com</h5>
         </div>
 
 
@@ -388,36 +389,83 @@
             <div class="row">
               <div class="col">
                 <label for="name" class="form-label">Name *</label>
-                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
               </div>
               <div class="col">
                 <label for="email" class="form-label">Email *</label>
-                <input type="email" class="form-control" id="email" placeholder="johndoe@gmail.com" required>
+                <input type="email" class="form-control" id="email" placeholder="johndoe@gmail.com">
               </div>
             </div>
             <div class="form-field">
               <label for="service" class="form-label">Looking for:</label>
-              <input type="text" class="form-control" id="course" placeholder="Web design & development" required>
+              <input type="text" class="form-control" id="course" placeholder="Web design & development">
 
 
             </div>
             <div class="form-field">
               <label for="message" class="form-label">Tell us more about your requirements:</label>
-              <textarea class="form-control" id="message" rows="3" placeholder="Your message here.."></textarea>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message here.."></textarea>
             </div>
             <button type="submit" class="btn-cta">Submit</button>
           </form>
 
         </div>
       </div>
+    </div>
+  </section>
 
 
 
 
+  <footer class="bg-alt">
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <div class="col-md-9">
+
+
+          <div class="footer-logo">
+            <img src="./image/logo-01.svg" alt="Footer Logo">
+            <p class="footer-text">Lorem ipsum dolor sit amet consectetur.
+              Cras vel a turpis urna orci integer consectetur tellus sed. Viverra turpis.</p>
+          </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+          <div class="footer-links">
+
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
 
 
 
 
+        <div class="col-md-12">
+
+          <div class="footer-down">
+
+            <div class="social-media">
+
+              <img src="./image/social media.svg" alt="online">
+            </div>
+
+
+
+
+            <div class="copyright">
+
+              <p>Copyright @ 2024.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -440,44 +488,7 @@
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-
+  </footer>
 
 
 

@@ -48,10 +48,24 @@ font-size: 16px;
     font-family: 'Inter Tight';
 }
 
+.team-heading{
+
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Inter Tight';
+}
+
 .card-text {
 
     color: #646464;
     font-weight: 400;
+}
+
+.text-card{
+
+    color: #646464;
+    font-weight: 400;
+
 }
 
 
@@ -59,7 +73,6 @@ font-size: 16px;
 
     color:#646464;
     font-weight: 400;
-    max-width: 570px;
     font-weight: 400;
 }
 
@@ -136,5 +149,19 @@ font-size: 16px;
 
     font-size: 24px;
     font-weight: 500;
-    width: 670px;
+    
+}
+
+.copyright {
+
+    font-family: 'DM Sans';
+    color: #646464;
+    
+}
+
+.footer-text{
+
+    font-weight: 400;
+    color: #646464;
+    
 }

@@ -1,0 +1,238 @@
+@media screen and (max-width: 768px){
+
+    
+
+    .info-sec {
+
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7px 16px;
+        
+    }
+
+    .image-card, .ml-auto {
+        display: none;
+    }
+
+    .hide-desktop{
+
+        margin-right: 17px;
+
+    }
+    .header-logo {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 375px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo-1{
+
+        
+        max-width: 166px;
+        margin-left: 16px;
+    }
+
+    .body-up {
+
+        padding: 0;
+    }
+
+    .blog-info{
+
+   padding: 60px 16px;
+
+    }
+
+    .main-heading{
+
+        font-size: 43px;
+        
+    }
+
+    .body-down {
+
+        padding: 0;
+    }
+
+    .phone, .quote, .email{
+
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 16px;
+        padding-right: 24px;
+        gap: 20px;
+    }
+
+    .Phone-Icon, .Quote-Icon, .Email-Icon{
+
+        max-width: 56px;
+    }
+
+    .email{
+
+        justify-content: start;
+    }
+
+    .service{
+
+        padding: 80px 16px;
+    }
+
+    .service-heading{
+
+        font-size: 32px;
+    }
+
+    .card-text{
+
+        padding-bottom: 59px;
+    }
+
+    .team-info{
+
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-left: 15px;
+    }
+
+    .team-heading{
+
+        font-size: 32px;
+        line-height: 38.72px;
+    }
+   
+    .team-text {
+
+        max-width: 344px;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+
+    .mobile-only{
+
+        padding-right: 17px;
+        padding-left: 16px;
+    }
+
+    .team{
+
+        padding-bottom: 60px;
+    }
+
+    .crew {
+
+        padding-top: 80px;
+    }
+
+    .anabel, .yasemin {
+
+        max-width: 164px;
+        
+    }
+
+    .crew-title{
+
+        font-size: 17px;
+    }
+
+    .crew-text{
+
+        font-size: 10px;
+    }
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+  
+    
+ 
+
+   
+
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-only {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+@media only screen and ( min-width: 1024px){
+    
+    .hide-desktop {
+
+        display: none;
+    }
+
+    .desktop-only{
+
+        display: block;
+    }
+
+    .nadine{
+
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
