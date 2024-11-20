@@ -145,10 +145,16 @@ font-size: 16px;
     
 }
 
+.form-label{
+
+    color: #646464;
+}
+
 .form-title{
 
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 30px;
     
 }
 

@@ -175,7 +175,7 @@ a .logo-1 {
 
 .container {
 
-    padding: 0;
+    
     max-width: 1170px;
 }
 
@@ -305,6 +305,11 @@ a .logo-1 {
     padding-bottom: 80px;
 }
 
+.shephard, .mark-joern{
+
+    display: none;
+}
+
 .navigation-images {
     float: right;
 }
@@ -348,6 +353,10 @@ a .logo-1 {
 }
 
 
+.sponsor-company{
+
+    display: none;
+}
 
 .bucket-img {
     display: flex;
@@ -367,6 +376,7 @@ label {
     margin-bottom: 10.38px;
 }
 
+
 .form-field {
 
     margin-top: 30px;
@@ -381,6 +391,14 @@ textarea {
 .form-text {
 
     max-width: 371px;
+}
+
+.form-input{
+
+    padding: 15px 18px;
+    border-radius: 0.91px;
+    width: 100%;
+    border-color: #646464;
 }
 
 .form-heading {
