@@ -32,6 +32,11 @@ section{
     padding: 120px 0;
 }
 
+.container {
+
+    
+    max-width: 1200px;
+}
 
 
 
@@ -60,23 +65,37 @@ a {
 
 }
 
+.logo-1{
 
-a .logo-1 {
+    padding-top: 38px;
+    padding-bottom: 32px;
+}
 
-    width: 250px;
-    height: 34px;
+.navigation-bar{
+
+    display: flex;
+    gap: 60px;
+    
 }
 
 .ml-auto {
 
-    gap: 60px;
-    padding: 30px 0px;
+    display: flex;
+    gap: 32px;
+    padding-top: 43px;
+    padding-bottom: 38px;
+    
 }
 
 .link-item {
 
     display: flex;
     gap: 32px;
+}
+
+.call-btn{
+
+    padding: 24px 0px;
 }
 
 .btn-cta {
@@ -101,14 +120,7 @@ a .logo-1 {
 
 }
 
-.navbar {
-    padding: 0;
-}
 
-.navbar-expand-lg .navbar-nav .nav-link {
-
-    padding: 0;
-}
 
 
 
@@ -142,10 +154,14 @@ a .logo-1 {
 .image-card {
 
     position: relative;
-    display: inline-block;
+    width: 100%;
     padding-top: 36px;
+    
+}
 
+.img-fluid{
 
+    width: 100%;
 }
 
 
@@ -173,11 +189,6 @@ a .logo-1 {
 
 }
 
-.container {
-
-    
-    max-width: 1170px;
-}
 
 .phone,
 .quote,
