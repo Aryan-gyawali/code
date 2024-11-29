@@ -55,6 +55,12 @@ section{
     align-items: center;
 }
 
+.call-btn{
+
+    display: none;
+    padding: 24px 0px;
+}
+
 
 a {
 
@@ -93,10 +99,7 @@ a {
     gap: 32px;
 }
 
-.call-btn{
 
-    padding: 24px 0px;
-}
 
 .btn-cta {
 
@@ -140,6 +143,7 @@ a {
 .main-heading {
 
     margin-bottom: 20px;
+    max-width: 570px;
 }
 
 .info-sec1 {
@@ -382,6 +386,16 @@ a {
     margin-bottom: 40px;
 }
 
+.hide-email{
+
+    display: none;
+}
+
+.hide-email2{
+
+    display: none;
+}
+
 label {
 
     margin-bottom: 10.38px;
@@ -409,7 +423,7 @@ textarea {
     padding: 15px 18px;
     border-radius: 0.91px;
     width: 100%;
-    border-color: #646464;
+    border: 1px solid #646464;
 }
 
 .form-heading {

@@ -16,25 +16,20 @@
         display: none;
     }
 
-    .hide-desktop{
-
-        margin-right: 17px;
-
-    }
+    
     .header-logo {
 
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 375px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        
+        
     }
     .logo-1{
 
         
         max-width: 166px;
-        margin-left: 16px;
+        
     }
 
     .body-up {
@@ -90,11 +85,10 @@
         padding-bottom: 59px;
     }
 
-    .team-info{
+   
+    .team{
 
-        padding-top: 60px;
-        padding-left: 15px;
-        padding-left: 15px;
+        padding: 60px 0px;
     }
 
     .team-heading{
@@ -116,10 +110,7 @@
         padding-left: 16px;
     }
 
-    .team{
-
-        padding-bottom: 60px;
-    }
+   
 
     .crew {
 
@@ -181,6 +172,11 @@
 
    
 
+    
+  .form-fillup{
+
+    padding: 80px 0px;
+  }
     form{
 
         max-width: 343px;
@@ -193,11 +189,15 @@
         
     }
 
-    
-
     .name{
 
         margin-bottom: 27px;
+    }
+
+    .hide-email2 {
+
+        display: block;
+        margin-top: 60px;
     }
 
     .footer-logo{
@@ -254,8 +254,7 @@
 
 
 
-  
-    
+
  
 
    
@@ -266,6 +265,8 @@
     .mobile-only {
       display: block;
     }
+
+    
   }
 
 
@@ -303,6 +304,16 @@
     }
 
     .sponsor-company{
+
+        display: block;
+    }
+
+    .call-btn {
+
+        display: block;
+    }
+
+    .hide-email{
 
         display: block;
     }
