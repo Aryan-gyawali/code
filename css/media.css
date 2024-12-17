@@ -308,6 +308,11 @@
         display: block;
     }
 
+    .bucket-img{
+
+        max-width: 150px;
+    }
+
     .call-btn {
 
         display: block;

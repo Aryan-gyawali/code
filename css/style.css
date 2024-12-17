@@ -127,10 +127,7 @@ a {
 
 
 
-.blog-info{
 
-    padding-top: 88px;
-}
 
 .section-title {
 
@@ -159,7 +156,7 @@ a {
 
     position: relative;
     width: 100%;
-    padding-top: 36px;
+    
     
 }
 
@@ -172,8 +169,9 @@ a {
 
 
 .body-up {
+    padding-top: 36px;
     padding-bottom: 70px;
-    padding-top: 0px;
+    
 }
 
 .body-up .overlay-img {
@@ -368,16 +366,9 @@ a {
 }
 
 
-.sponsor-company{
 
-    display: none;
-}
 
-.bucket-img {
-    display: flex;
-    gap: 80px;
-    
-}
+
 
 .trusted-by {
 
@@ -385,6 +376,19 @@ a {
     
     margin-bottom: 40px;
 }
+
+
+.bucket-img img {
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+    max-width: 90px;
+
+}
+
+
+
+
 
 .hide-email{
 
@@ -443,7 +447,7 @@ form {
 .footer-links{
 
     display: flex;
-    gap: 70px;
+    gap: 60px;
     margin-top: 128px;
     
 }
@@ -496,6 +500,11 @@ form {
     padding: 15.5px 18.8px;
     border-radius: 0;
 }
+
+
+
+
+
 
 
 
